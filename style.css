@@ -1,5 +1,4 @@
 body {
-    
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -285,7 +284,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 42px;
+    font-weight: 600;
 }
 
 .navbar {
@@ -346,7 +346,9 @@ a:hover {
 .navbar-toggle:hover {
     background: transparent!important;
 }
-
+.web{
+    font-size: 20px;
+}
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
@@ -653,6 +655,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    font-size: 20px;
 }
 
 .container {
@@ -684,6 +687,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size: 18px;
 }
 
 .h1 {
@@ -701,16 +705,12 @@ p {
 }
 
 .social {
-    
     max-width: 400px;
-    margin: 2rem auto 2rem auto !important;
-}
-@media (max-width: 667px){
-    .social{
+    margin: auto auto auto auto;
     display: flex;
-    align-items: center ;
-    justify-content:space-between;}
+    justify-content:space-around;
 }
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -782,7 +782,7 @@ h4 {
 }
 
 .tc-white {
-    color:white!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
