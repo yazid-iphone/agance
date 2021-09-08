@@ -328,7 +328,9 @@ a:hover {
     margin-top: 4px;
     font-size: 16px;
 }
-
+.navbar-header img{
+    width: 250px;
+}
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
